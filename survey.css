@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(226, 217, 163);
+
+}
+#body{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 18px;
+    margin: 10px 300px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    
+}
+.p-details{
+    margin: 10px 10px;
+}
+#submit{
+    text-align: center;
+    color: white;
+    background-color: red;
+    margin: 15px 400px;
+    border: none;
+}

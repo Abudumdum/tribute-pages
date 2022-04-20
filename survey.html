@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey form</title>
+    <link rel="stylesheet" href="survey.css" />
+  </head>
+  <body>
+    <div id="body">
+      <h1>Permision to date my sister</h1>
+      <p>
+        <strong>Note:</strong>Form is to be completed at least 21 days prior to
+        date
+      </p>
+      <form action="get">
+        <fieldset class="p-details">
+          <legend><strong> Personal details</strong></legend>
+          <p>
+            <label for="name"> Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter  Name here"
+            />
+          </p>
+          <p>
+            <label for="Address"> Address:</label>
+            <input
+              type="text"
+              id="Address"
+              name="name"
+              placeholder="Enter Address here"
+            />
+          </p>
+          <p>
+            <label for="Phonenumber"> Phone number:</label>
+            <input
+              type="text"
+              id="Phone number"
+              name="name"
+              placeholder="Enter Phone number here"
+            />
+          </p>
+          <p>
+            <label for="Email"> Email:</label>
+            <input
+              type="text"
+              id="Email"
+              name="name"
+              placeholder="Enter Email here"
+            />
+          </p>
+          <p>
+            <label for="IQ"> IQ:</label>
+            <input
+              type="text"
+              id="IQ"
+              name="name"
+              placeholder="Enter IQ here"
+            />
+          </p>
+          <p>Gender</p>
+          <input type="radio" name="male" id="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="Female" id="Female" />
+          <label for="Female">Female</label>
+          <input type="radio" name="Other" id="Other" />
+          <label for="Other">Other</label>
+          <label for="date">Date of Proposed Outing: </label>
+          <input type="date" name="date" id="date" />
+        </fieldset>
+        <fieldset class="p-details">
+          <legend></legend>
+          <p>Check All That Apply</p>
+          <br />
+          <input type="checkbox" name="tattoos" id="tattoos" />
+          <label for="tattoos">I have tattoos and or piercings</label>
+
+          <input type="checkbox" name="older" id="older" />
+          <label for="older">I am more than 2 years older than my sister</label>
+
+          <input type="checkbox" name="van" id="van" />
+          <label for="van">I own a panel van or V8 ute</label>
+
+          <input type="checkbox" name="work" id="work" />
+          <label for="work">I work Full-time</label>
+
+          <input type="checkbox" name="parents" id="parents" />
+          <label for="parents">My parents are rich</label>
+
+          <input type="checkbox" name="public" id="public" />
+          <label for="public">Is the date at a well lit public location</label>
+        </fieldset>
+        <fieldset class="p-details">
+          <legend></legend>
+          <label for="politics">Political persuasion:</label>
+          <select name="politics" id="politics">
+            <option value="Left Wing">Left Wing</option>
+            <option value="Right Wing">Right Wing</option>
+            <option value="NAZI ">NAZI</option>
+            <option value="Conservative">Conservative</option>
+          </select>
+          <label for="Education">Education Level Completed:</label>
+          <select name="Education" id="Education">
+            <option value="University">University</option>
+            <option value="College">College</option>
+            <option value="High School ">High School</option>
+            <option value="None">None</option>
+          </select>
+        </fieldset>
+        <fieldset class="p-details">
+          <legend><strong>Essay Section</strong></legend>
+          <p>In 50 words or more explain why you want to date my sister</p>
+          <textarea
+            name="reason"
+            id="reason"
+            cols="30"
+            rows="10"
+            placeholder="Enter Text Here"
+          ></textarea>
+          <p>Please upload contact details for 2 references</p>
+          <textarea
+            name="references"
+            id="references"
+            cols="30"
+            rows="10"
+            placeholder="Enter Text Here"
+          ></textarea>
+          <br />
+          <label for="upload"
+            >Upload police clearance certificate, Bank Statement and Medical
+            certificates here:
+          </label>
+          <input type="file" name="upload" id="upload" value="Attach Files" />
+        </fieldset>
+        <input type="submit" id="submit" value="Send Your Application" />
+      </form>
+    </div>
+  </body>
+</html>
